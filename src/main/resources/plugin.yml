@@ -1,0 +1,13 @@
+name: FAF
+version: '1.0.0'
+main: com.fiojf.faf.FAF
+api-version: '1.21'
+description: "Fiojf's Attribute Swap Fix - Restores vanilla attribute swapping on Paper"
+commands:
+  faf:
+    description: Toggle vanilla attribute swap on/off
+    permission: faf.toggle
+permissions:
+  faf.toggle:
+    description: Allows toggling the attribute swap fix
+    default: op
