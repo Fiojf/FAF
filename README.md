@@ -1,6 +1,6 @@
 # FAF — Fiojf's Attribute Swap Fix
 
-A Paper 1.21.11 plugin that restores vanilla attribute swapping behavior on servers.
+A Paper 1.21.1 - 26.1.2 plugin that restores vanilla attribute swapping behavior on servers.
 
 ## What is Attribute Swapping?
 
