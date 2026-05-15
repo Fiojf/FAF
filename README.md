@@ -1,12 +1,12 @@
 # FAF — Fiojf's Attribute Swap Fix
 
-A Paper 1.21.1 - 26.1.2 plugin that restores vanilla attribute swapping behavior on servers.
+A Paper 1.21.1 - 26.1.2 plugin to easily toggle attribute swapping on Paper servers, with fixes to make it as close to vanilla as possible.
 
 ## What is Attribute Swapping?
 
 Attribute swapping ([MC-28289](https://bugs.mojang.com/browse/MC-28289)) is a vanilla Minecraft mechanic where swapping weapons within 1-2 ticks of an attack causes the game to mix attributes from both items — using one weapon's base damage with another weapon's enchantments.
 
-Paper prevents this by forcing equipment updates on player actions. FAF undoes that fix, restoring vanilla behavior.
+Paper blocks this by default. FAF flips the switch with one command and patches the remaining edge cases (cooldown ticker, attribute carryover) so the behavior stays as close to vanilla as possible.
 
 ## How it Works
 
@@ -24,7 +24,7 @@ Paper prevents this by forcing equipment updates on player actions. FAF undoes t
 
 | Command | Permission   | Description                        |
 |---------|--------------|------------------------------------|
-| `/faf`  | `faf.toggle` | Toggle vanilla attribute swap on/off |
+| `/faf`  | `faf.toggle` | Toggle attribute swapping on/off |
 
 Permission defaults to **op**.
 
